@@ -1,0 +1,21 @@
+#navh1 {
+    text-align: center;       
+    margin: 0; 
+    font-size:40px; 
+    color: white;
+    background: linear-gradient(to right, #7f00ff, #e100ff, #ff0080);
+
+    height: 60px;
+    text-decoration: solid;
+    text-shadow: -12px 25px 11px #000000;
+    border: solid;
+    border-color:none;
+    border-radius: 50px;
+    border-width: 1px;
+    box-shadow: -30px 25px 11px #63032d;
+    width: 50vw;
+    margin-left: 25vw;
+     margin-top: 10px;  
+     margin-bottom: 20px;  
+  }
+  

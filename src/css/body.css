@@ -1,0 +1,110 @@
+#input{
+    width: 40%;
+    height: 25px;
+    border-radius: 19px;
+    border: 0px solid black;
+    padding: 10px;
+    margin-top:20px;
+    margin-left: 25vw;
+    
+    font-size: x-large;
+    background: linear-gradient(to right, #1e3a8a, #2563eb, #3b82f6);
+
+    box-shadow: -15px 15px 5px black;
+    color:#f3f0f0;
+}
+#input:hover{
+    background: linear-gradient(to right, #6378af, #2d3954, #3b82f6);
+    color: #212121;
+}
+ #add{
+    background-color:#2accc8;
+    color: black;
+    padding: 10px;
+    border-radius: 35px;
+    cursor: pointer;
+    margin-left: 15px;
+    width: 100px;
+    font-size: large;
+    height: 50px;
+    box-shadow: -5px 15px 5px black;
+}
+#add:hover{
+    background-color: blue;
+    color: white;
+}
+#list{
+    width: 93%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top:20px;
+    margin-left: 35px;
+    background: linear-gradient(to right, #43cea2, #185a9d, #2b5876);
+
+    box-shadow: -15px 15px 15px black;
+    text-decoration:none;  
+    list-style-type:decimal;
+}
+#option{
+    height: 45px;
+    text-decoration: none;
+    list-style-type:decimal;
+    /* background: linear-gradient(to right, #ffffff, #ffe6e6, #ffcccc); */
+
+    box-shadow: 2px 2px 2px black;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top:10px;
+    margin-left: 15px;
+    position: relative; 
+    display: flex;
+    flex-direction: row ;
+    color: black;
+}
+#option:hover{
+    background: linear-gradient(to right, #64b4ba, #4570ad, #52469e);
+
+    /* color: white; */
+}
+#checkbox{
+    width: 20px; 
+    height: 20px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#data{
+    margin-left: 15px;
+    font-size: x-large;
+    background: linear-gradient(to right, #89f7fe, #89f7fe, #89f7fe);
+
+}
+#data:hover{
+    background: linear-gradient(to right, #779b9e, #89f7fe, #89f7fe);
+
+    color: #212121;
+}
+#del{
+    background: linear-gradient(to right, #89f7fe, #66a6ff, #6a5acd);
+
+    color: black;
+    padding: 10px;
+    border-radius: 35px;
+    cursor: pointer;
+    margin-left: 25px;
+    width: 80px;
+    font-size: large;
+    box-shadow: 5px 5px 5px black;
+    position: absolute;
+    right: 25px; 
+    top: 11px;  
+}
+#del:hover{
+    background: linear-gradient(to right, #fe8d89, #ffa366, #99cd5a);
+
+    color: black;
+}
