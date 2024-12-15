@@ -7,7 +7,7 @@ function Body({ crossline, ondelete }) {
    
     const submit = (e) => {
         e.preventDefault();
-        if(data.length ===0){alert('Please enter a task');}
+        if(data.length ===0){alert('Please enter a task');        }
         else if(data.length >=40){alert('Please enter a task under 40 letters');}
         else{
         const newTask = { id: Date.now(), text: data, completed: false };
@@ -37,6 +37,7 @@ function Body({ crossline, ondelete }) {
                     onChange={(e) => setData(e.target.value)} 
                     placeholder='Work...'
                 />
+                
                 <button type='submit' id='add'>Add</button>
             </form>
             <ul id='list'>
