@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {link} from 'react-router-dom';
 import '../css/body.css';
 
 function Body({ crossline, ondelete }) {
@@ -25,10 +26,12 @@ function Body({ crossline, ondelete }) {
     const handleDelete = (taskId) => {
         setTasks(tasks.filter(task => task.id !== taskId));
     };
+    
     console.log(tasks);
     console.log(data);
     return (
         <div id='main'>
+           
             <form onSubmit={submit} id='form'>
                 <input
                     type="text"
