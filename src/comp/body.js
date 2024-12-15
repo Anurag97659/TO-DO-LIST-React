@@ -7,10 +7,13 @@ function Body({ crossline, ondelete }) {
    
     const submit = (e) => {
         e.preventDefault();
-        if (!data.trim()) return; 
+        if(data.length ===0){alert('Please enter a task');}
+        else if(data.length >=40){alert('Please enter a task under 40 letters');}
+        else{
         const newTask = { id: Date.now(), text: data, completed: false };
         setTasks([...tasks, newTask]);
         setData('');
+        }
     };
 
     const handleCheckboxChange = (taskId) => {

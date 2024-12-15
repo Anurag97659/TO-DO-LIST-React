@@ -41,7 +41,8 @@
     margin-top:20px;
     margin-left: 35px;
     background: linear-gradient(to right, #43cea2, #185a9d, #2b5876);
-
+    height: 30vw;
+    overflow-y: scroll;
     box-shadow: -15px 15px 15px black;
     text-decoration:none;  
     list-style-type:decimal;
